@@ -1,0 +1,25 @@
+{
+  "name": "portfolio_perso",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "reinstall": "sudo rm -r node_modules* && npm i && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucie0012/portfolio_perso.git"
+  },
+  "author": "Lucie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucie0012/portfolio_perso/issues"
+  },
+  "homepage": "https://github.com/lucie0012/portfolio_perso#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  }
+}
